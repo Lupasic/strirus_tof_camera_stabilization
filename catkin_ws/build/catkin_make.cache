@@ -1,0 +1,2 @@
+imu_gyro:imu_rpy:pico_flexx_driver:sampleROS
+-DCATKIN_DEVEL_PREFIX=/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/install -G Unix Makefiles

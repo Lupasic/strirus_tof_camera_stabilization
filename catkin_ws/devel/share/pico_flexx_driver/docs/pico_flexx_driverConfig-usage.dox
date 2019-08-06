@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="pico_flexx_driver" pkg="pico_flexx_driver" type="pico_flexx_driver">
+  <param name="use_case" type="int" value="0" />
+  <param name="exposure_mode" type="int" value="0" />
+  <param name="exposure_mode_stream2" type="int" value="0" />
+  <param name="exposure_time" type="int" value="1000" />
+  <param name="exposure_time_stream2" type="int" value="1000" />
+  <param name="max_noise" type="double" value="0.07" />
+  <param name="range_factor" type="double" value="2.0" />
+  <param name="filter_level" type="int" value="200" />
+</node>
+\endverbatim
+

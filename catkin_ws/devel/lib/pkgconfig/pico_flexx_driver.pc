@@ -1,0 +1,8 @@
+prefix=/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/devel
+
+Name: pico_flexx_driver
+Description: Description of pico_flexx_driver
+Version: 0.0.0
+Cflags: -I/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/devel/include
+Libs: -L/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/devel/lib 
+Requires: nodelet roscpp rostime sensor_msgs std_msgs dynamic_reconfigure

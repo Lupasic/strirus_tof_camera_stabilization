@@ -1,0 +1,13 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~use_case" : \b [int] Use cases for the sensor min: 0, default: 0, max: 9
+- \b "~exposure_mode" : \b [int] Exposure mode for the sensor min: 0, default: 0, max: 1
+- \b "~exposure_mode_stream2" : \b [int] Exposure mode for the sensor (stream 2) min: 0, default: 0, max: 1
+- \b "~exposure_time" : \b [int] Exposure time min: 1, default: 1000, max: 2000
+- \b "~exposure_time_stream2" : \b [int] Exposure time (stream 2) min: 1, default: 1000, max: 2000
+- \b "~max_noise" : \b [double] Max allowed noise min: 0.0, default: 0.07, max: 0.1
+- \b "~range_factor" : \b [double] Range of factor times standard deviation arround mean min: 0.0, default: 2.0, max: 7.0
+- \b "~filter_level" : \b [int] Filter level min: 0, default: 200, max: 256
+

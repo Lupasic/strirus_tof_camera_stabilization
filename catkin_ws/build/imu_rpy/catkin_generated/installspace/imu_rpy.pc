@@ -1,0 +1,8 @@
+prefix=/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/install
+
+Name: imu_rpy
+Description: Description of imu_rpy
+Version: 0.0.0
+Cflags: -I/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/install/include
+Libs: -L/home/sarrasor/Documents/Projects/Camera_Stabilization/Camera/catkin_ws/install/lib 
+Requires: message_runtime other_catkin_pkg
